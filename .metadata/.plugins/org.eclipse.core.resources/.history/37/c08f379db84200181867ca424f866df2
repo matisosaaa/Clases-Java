@@ -1,0 +1,92 @@
+
+public class pseudoCodigo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	// 		J (java) V (virtual) M (machine)
+	// 		JVM hace que cualquier porgrana que hagamos, 
+	// 		lo podanos correr en otras plataformas que tenga jvm
+	
+	// 		J (java) R (runtime) E (enviroment)
+	
+	
+	
+	// 		J (java) D (developer) K (kit)
+	
+	
+	
+	// buscar la diferencia entre programación estructuda y orientada a objetos 
+	
+	
+	// Ventajas: Reutilizar el código - Mejor orgnización --> Más facil de debuguear
+	
+	
+	int c;
+	c = 1; 
+	
+	//HACER
+	do {
+	System.out.println(c + " ");
+	c++;
+	
+	//HASTA QUE (C<101)
+	}while(c<101);
+	
+	
+	//bucle HACER{ 
+	
+	//}Mientras (condición)
+	
+	
+	
+	int F; 
+	F = 100; 
+	do {
+	System.out.print(F + " ");	
+	F--;	
+		
+		
+	}while (F>0);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}// aca termina el metodo main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} //aca termina la clase 
+
+
+

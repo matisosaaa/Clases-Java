@@ -1,0 +1,45 @@
+package clase4;
+
+import java.util.Scanner;
+
+public class scanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+		
+		
+		//Vamos a usar programación orientada a objetos cuando los proyrrctos sean largos
+	// La porgramacion estructurada es mas complicada de leer
+	
+	//La diferencia entre do while y while es que do while hace que
+	//	entre por lo menos una vez, si no cumple con la condición se va, 
+	//	mientras que while, directamente reconoce y no lo hace entrar
+	
+	
+	int num=0;	
+	String pal;
+	double com;
+	
+	Print("Ingrese int");
+	Scanner sc = new Scanner (System.in);
+	Print("Ingrese String");
+	Scanner sc1 = new Scanner (System.in);
+	Print("Ingrese Double");
+	Scanner sc2 = new Scanner (System.in);
+	
+	
+	
+	num=sc.nextInt(1);
+	pal=sc1.nextLine();
+	com=sc2.nextDouble();
+	
+	}
+
+	private static void Print(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

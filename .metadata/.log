@@ -1,0 +1,229 @@
+!SESSION 2018-04-12 19:08:25.257 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-12 19:12:24.627
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\students'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-04-17 22:59:54.387 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-17 23:01:09.298
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\students'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:15:44.331
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.AbstractStringBuilder.<init>(Unknown Source)
+	at java.lang.StringBuffer.<init>(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.getLine(ConsoleDocumentAdapter.java:178)
+	at org.eclipse.swt.custom.StyledTextRenderer.drawLine(StyledTextRenderer.java:365)
+	at org.eclipse.swt.custom.StyledText.handlePaint(StyledText.java:6181)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5738)
+	at org.eclipse.swt.custom.StyledText$$Lambda$295/280026426.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1570)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4900)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5191)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.ui.internal.Workbench$$Lambda$65/7752890.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:15:44.399
+!MESSAGE Error occurred during status handling
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.AbstractStringBuilder.<init>(Unknown Source)
+	at java.lang.StringBuffer.<init>(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.getLine(ConsoleDocumentAdapter.java:178)
+	at org.eclipse.swt.custom.StyledTextRenderer.drawLine(StyledTextRenderer.java:365)
+	at org.eclipse.swt.custom.StyledText.handlePaint(StyledText.java:6181)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5738)
+	at org.eclipse.swt.custom.StyledText$$Lambda$295/280026426.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1570)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4900)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5191)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:86)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:49)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:102)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:31)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:213)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:260)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:271)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopException(WorkbenchAdvisor.java:330)
+	at org.eclipse.ui.internal.Workbench$1.eventLoopException(Workbench.java:518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.handle(PartRenderingEngine.java:1172)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1162)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:16:52.829
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.AbstractStringBuilder.<init>(Unknown Source)
+	at java.lang.StringBuffer.<init>(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.getLine(ConsoleDocumentAdapter.java:178)
+	at org.eclipse.swt.custom.StyledTextRenderer.drawLine(StyledTextRenderer.java:365)
+	at org.eclipse.swt.custom.StyledText.handlePaint(StyledText.java:6181)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5738)
+	at org.eclipse.swt.custom.StyledText$$Lambda$295/280026426.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1570)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4900)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5191)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.ui.internal.Workbench$$Lambda$65/7752890.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:16:52.831
+!MESSAGE Error occurred during status handling
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.AbstractStringBuilder.<init>(Unknown Source)
+	at java.lang.StringBuffer.<init>(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.getLine(ConsoleDocumentAdapter.java:178)
+	at org.eclipse.swt.custom.StyledTextRenderer.drawLine(StyledTextRenderer.java:365)
+	at org.eclipse.swt.custom.StyledText.handlePaint(StyledText.java:6181)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5738)
+	at org.eclipse.swt.custom.StyledText$$Lambda$295/280026426.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1570)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4900)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5191)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:86)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:49)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:102)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:31)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:213)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:260)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:271)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopException(WorkbenchAdvisor.java:330)
+	at org.eclipse.ui.internal.Workbench$1.eventLoopException(Workbench.java:518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.handle(PartRenderingEngine.java:1172)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1162)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+
+!ENTRY org.eclipse.ui 4 4 2018-04-18 01:28:23.718
+!MESSAGE An internal error has occurred.
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:31:52.410
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:31:52.411
+!MESSAGE Error occurred during status handling
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:32:25.227
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.ui 4 0 2018-04-18 01:32:41.821
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+!SESSION 2018-04-19 23:11:58.271 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-19 23:12:59.642
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\students'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-04-19 23:14:50.129 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-19 23:15:05.246
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\students'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

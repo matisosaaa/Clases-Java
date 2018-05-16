@@ -1,0 +1,30 @@
+
+public class sumC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	int sum=6;
+	int c=9;
+	
+	do {
+		
+	System.out.println(sum+=c);	
+		
+		
+		
+	}while (c<101);
+	
+	System.out.println("La suma en" + sum);
+	
+	
+	
+	}
+
+
+
+
+
+
+}
